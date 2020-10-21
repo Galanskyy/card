@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   background: #f2f2f2;
   font-family: 'proxima-nova-soft', sans-serif;
@@ -8,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: burlywood;
 }
 .post-module {
   position: relative;
@@ -15,6 +20,7 @@ body {
   width: 350px;
   height: 470px;
   transition: all 0.3s linear 0s;
+  overflow: hidden;
 }
 .post-module:hover{
   box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
@@ -115,6 +121,7 @@ img {
   color: #666666;
   font-size: 14px;
   line-height: 1.8em;
+  transition: 0.5s;
 }
 
 @keyframes scale-up-bottom {
@@ -148,13 +155,22 @@ img {
 .main{
   font-size: 40px;
   text-align: center;
+  padding: 20px;
 }
 .close{
+  border-radius: 50%;
   position: absolute;
+  background-color: white;
+  color: black;
   top: 0px;
   right: 0px;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 @keyframes slidebot {
