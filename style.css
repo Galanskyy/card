@@ -30,7 +30,7 @@ body {
   }
   .price {
     position: absolute;
-    /* z-index: 1; */
+    z-index: 1;
     top: 20px;
     right: 20px;
     background: #e74c3c;
@@ -42,6 +42,26 @@ body {
     font-weight: 700;
     text-align: center;
     box-sizing: border-box;
+  }
+  .buy {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+    background: #e74c3c;
+    width: 55px;
+    height: 55px;
+    padding: 12.5px 0;
+    border-radius: 100%;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .icon{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
   }
   .cost {
     font-size: 18px;
