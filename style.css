@@ -43,6 +43,13 @@ body {
     text-align: center;
     box-sizing: border-box;
   }
+  .cost {
+    font-size: 18px;
+  }
+  .currnecy {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
   .buy {
     position: absolute;
     z-index: 1;
@@ -62,13 +69,6 @@ body {
     height: 50px;
     width: 50px;
     font-size: 30px;
-  }
-  .cost {
-    font-size: 18px;
-  }
-  .currnecy {
-    font-size: 12px;
-    text-transform: uppercase;
   }
   img {
     display: block;
@@ -115,3 +115,20 @@ body {
     font-size: 14px;
     line-height: 1.8em;
   }
+
+  @keyframes scale-up-bottom {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+  }
+  
+  
